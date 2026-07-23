@@ -171,8 +171,8 @@ ul {
 }
 
 .plant-small {
-  max-height: 130px;
-  margin-right: -70px;
+  max-height: 135px;
+  margin-right: -135px;
   position: relative;
   z-index: 2;
 }
