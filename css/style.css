@@ -167,7 +167,7 @@ ul {
 }
 
 .plant-big {
-  max-height: 400px;
+  max-height: 380px;
 }
 
 .plant-small {
@@ -175,5 +175,4 @@ ul {
   margin-right: -35px;
   position: relative;
   z-index: 2;
-
 }
