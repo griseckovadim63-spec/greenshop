@@ -1,0 +1,177 @@
+/* Базовые настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #3D3D3D;
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 1. ЦЕНТРАЛЬНЫЙ КОНТЕЙНЕР (Ширина 1200px из макета) */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 2. ШАПКА (HEADER) */
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* Убираем межстрочные пробелы между inline-block элементами */
+.header-container {
+  font-size: 0;
+}
+
+/* Три основных блока Хедера в один ряд */
+.logo,
+.nav,
+.header-actions {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo-img {
+  max-height: 35px;
+  display: block;
+}
+
+.nav {
+  width: 60%;
+  text-align: center;
+}
+
+.header-actions {
+  width: 20%;
+  text-align: right;
+}
+
+/* Пункты меню навигации */
+.nav-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #3D3D3D;
+  padding-bottom: 25px;
+}
+
+.nav-link.active {
+  color: #46A358;
+  font-weight: bold;
+  border-bottom: 3px solid #46A358;
+}
+
+/* Кнопка Login */
+.btn-login {
+  display: inline-block;
+  background-color: #46A358;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 3. ПЕРВАЯ СЕКЦИЯ (HERO) */
+.hero {
+  background-color: #F5F5F5;
+  margin-top: 12px;
+  padding: 40px 0;
+}
+
+.hero-container {
+  font-size: 0;
+  height: 450px; /* Фиксированная высота из макета 1200x450 */
+}
+
+/* Левый блок секции */
+.hero-content {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 16px;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #3D3D3D;
+}
+
+.hero-title {
+  font-size: 60px;
+  line-height: 1.1;
+  margin: 10px 0 15px 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.text-green {
+  color: #46A358;
+}
+
+.hero-text {
+  color: #727272;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.btn-green {
+  display: inline-block;
+  background-color: #46A358;
+  color: #FFFFFF;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Новые стили для блока с 2 растениями */
+.hero-image-box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 0;
+  text-align: center;
+}
+
+.plant-img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.plant-big {
+  max-height: 380px;
+}
+
+.plant-small {
+  max-height: 180px;
+  margin-right: 15px;
+}
